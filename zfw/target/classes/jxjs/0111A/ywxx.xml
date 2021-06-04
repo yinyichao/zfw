@@ -2,51 +2,51 @@
 <ROOT>
   <XTXX>
     <!--【名称】:平台统一案号, 【类型】:VC【长度】:300【说明】:业务起始节点平台生成，用于关联各业务系统中案件，后续节点需携带发出-->
-    <PTTYAH>6ad2374f66e745018ffbc27ae8386ffa</PTTYAH>
+    <PTTYAH></PTTYAH>
     <!--【名称】:数据标识, 【类型】:VC【长度】:300【说明】:与数据包名称的数据标识一致-->
-    <SJBS>eec10deefa954373b17d951db6021edf</SJBS>
+    <SJBS></SJBS>
     <!--【名称】:案件编号, 【类型】:VC【长度】:300【说明】:业务系统的案件编号,若公安首先发起、那么就是公安业务系统的案号。若是由检察院发起、那么就是检察院的部门受案号-->
-    <AJBH>30c2c26b1dbf45c687cf3f3efe7ca316</AJBH>
+    <AJBH></AJBH>
     <!--【名称】:案号, 【类型】:VC【长度】:300【说明】:无-->
-    <AH>（2020）黑哈狱有减字5-4号</AH>
+    <AH></AH>
     <!--【名称】:案件名称, 【类型】:VC【长度】:300【说明】:无-->
-    <AJMC>故意伤人</AJMC>
+    <AJMC></AJMC>
     <!--【名称】:业务类别, 【类型】:VC【长度】:300【说明】:代码标准：【业务类别】-->
-    <YWLB>减刑假释</YWLB>
+    <YWLB></YWLB>
     <!--【名称】:业务类别名称, 【类型】:VC【长度】:300【说明】:无-->
-    <YWLBMC>减刑假释</YWLBMC>
+    <YWLBMC></YWLBMC>
     <!--【名称】:流程节点编号, 【类型】:VC【长度】:300【说明】:代码标准：【流程节点】-->
-    <LCJDBH>0111A</LCJDBH>
+    <LCJDBH></LCJDBH>
     <!--【名称】:接收单位编号, 【类型】:VC【长度】:300【说明】:代码标准：【机关代码】-->
-    <JSDWBH>851</JSDWBH>
+    <JSDWBH></JSDWBH>
     <!--【名称】:接收单位名称, 【类型】:VC【长度】:300【说明】:无-->
-    <JSDWMC>哈尔滨市中级人民法院</JSDWMC>
+    <JSDWMC></JSDWMC>
     <!--【名称】:接收单位单位所在地, 【类型】:VC【长度】:300【说明】:无-->
-    <JSDWDWSZD>哈尔滨市</JSDWDWSZD>
+    <JSDWDWSZD></JSDWDWSZD>
     <!--【名称】:接收单位所在地行政区划代码, 【类型】:INT【长度】:无【说明】:代码标准：【行政区划】-->
-    <JSDWSZDXZQHDM>法院</JSDWSZDXZQHDM>
+    <JSDWSZDXZQHDM></JSDWSZDXZQHDM>
     <!--【名称】:接收单位所在地行政区划, 【类型】:VC【长度】:300【说明】:无-->
-    <JSDWSZDXZQH>哈尔滨市</JSDWSZDXZQH>
+    <JSDWSZDXZQH></JSDWSZDXZQH>
     <!--【名称】:接收单位类型, 【类型】:VC【长度】:300【说明】:无-->
-    <JSDWLX>法院</JSDWLX>
+    <JSDWLX></JSDWLX>
     <!--【名称】:发送单位类型, 【类型】:VC【长度】:300【说明】:无-->
-    <FSDWLX>监狱</FSDWLX>
+    <FSDWLX></FSDWLX>
     <!--【名称】:发送单位编号, 【类型】:VC【长度】:300【说明】:代码标准：【机关代码】，多个；分割-->
-    <FSDWBH>2301002301</FSDWBH>
+    <FSDWBH></FSDWBH>
     <!--【名称】:发送单位名称, 【类型】:VC【长度】:300【说明】:无-->
-    <FSDWMC>哈尔滨监狱</FSDWMC>
+    <FSDWMC></FSDWMC>
     <!--【名称】:发送单位所在地, 【类型】:VC【长度】:300【说明】:无-->
-    <FSDWSZD>哈尔滨市</FSDWSZD>
+    <FSDWSZD></FSDWSZD>
     <!--【名称】:发送单位所在地行政区划代码, 【类型】:INT【长度】:无【说明】:代码标准：【行政区划】-->
-    <FSDWSZDXZQHDM>230000</FSDWSZDXZQHDM>
+    <FSDWSZDXZQHDM></FSDWSZDXZQHDM>
     <!--【名称】:发送单位所在地行政区划, 【类型】:VC【长度】:300【说明】:无-->
-    <FSDWSZDXZQH>哈尔滨市</FSDWSZDXZQH>
+    <FSDWSZDXZQH></FSDWSZDXZQH>
     <!--【名称】:发送时间, 【类型】:DT【长度】:无【说明】:数据包的发送时间-->
-    <FSSJ>2020-07-10 16:08:38</FSSJ>
+    <FSSJ></FSSJ>
     <!--【名称】:移送日期, 【类型】:D【长度】:无【说明】:业务移送日期，对应提请日期、裁定日期等-->
-    <YSRQ>2020-07-10</YSRQ>
+    <YSRQ></YSRQ>
     <!--【名称】:数据类型, 【类型】:INT【长度】:无【说明】:代码标准：【数据类型】-->
-    <SJLX>1</SJLX>
+    <SJLX></SJLX>
   </XTXX>
   <XTAJBH>
     <FY>
@@ -81,7 +81,7 @@
       <!--【名称】:接收单位, 【类型】:VC【长度】:300【说明】:代码标准：组织机构代码-->
       <JSDW>2301002301</JSDW>
       <!--【名称】:接收单位名称, 【类型】:VC【长度】:300【说明】:无-->
-      <JSDWMC>哈尔滨市中级人民法院</JSDWMC>
+      <JSDWMC>哈尔滨监狱</JSDWMC>
     </AJJBXX>
     <TQXX>
       <!--【名称】:罪犯编号, 【类型】:VC【长度】:300【说明】:无-->

@@ -23,7 +23,7 @@ public class XTXX {
     //案件名称
     private String AJMC = "故意伤人";
     //业务类别
-    private String YWLB = "减刑假释";
+    private String YWLB = "0111";
     //业务类别名称
     private String YWLBMC = "减刑假释";
     //流程节点编号
@@ -33,11 +33,11 @@ public class XTXX {
     //接收单位名称
     private String JSDWMC = "哈尔滨市中级人民法院";
     //接收单位单位所在地
-    private String JSDWDWSZD = "哈尔滨市";
+    private String JSDWDWSZD = "黑龙江省哈尔滨市";
     //接收单位所在地行政区划代码  int
-    private String JSDWSZDXZQHDM = "法院";
+    private String JSDWSZDXZQHDM = "230100";
     //接收单位所在地行政区划
-    private String JSDWSZDXZQH = "哈尔滨市";
+    private String JSDWSZDXZQH = "黑龙江省哈尔滨市";
     //接收单位类型
     private String JSDWLX = "法院";
     //发送单位类型
@@ -45,45 +45,25 @@ public class XTXX {
     //发送单位编号
     private String FSDWBH = "2301002301";
     //发送单位名称
-    private String FSDWMC = "哈尔滨监狱";
+    private String FSDWMC = "黑龙江省哈尔滨监狱";
     //发送单位所在地
-    private String FSDWSZD = "哈尔滨市";
+    private String FSDWSZD = "黑龙江省哈尔滨市";
     //发送单位所在地行政区划代码 int
-    private String FSDWSZDXZQHDM = "230000";
+    //50241083
+    private String FSDWSZDXZQHDM = "230100";
     //发送单位所在地行政区划
-    private String FSDWSZDXZQH = "哈尔滨市";
+    private String FSDWSZDXZQH = "黑龙江省哈尔滨市";
     //发送时间  date
     private String FSSJ = "2020-07-10 16:08:38";
     //移送日期  date
     private String YSRQ = "2020-07-10";
-    //数据类型 int
+    /**
+     *  数据类型 int
+     * ----		数据类型
+     * 50241001	  1	新增
+     * 50241001	  2	补充
+     **/
     private String SJLX = "1";
-
-    public XTXX(String PTTYAH, String SJBS, String AJBH, String AH, String AJMC, String YWLB, String YWLBMC, String LCJDBH, String JSDWBH, String JSDWMC, String JSDWDWSZD, String JSDWSZDXZQHDM, String JSDWSZDXZQH, String JSDWLX, String FSDWLX, String FSDWBH, String FSDWMC, String FSDWSZD, String FSDWSZDXZQHDM, String FSDWSZDXZQH, String FSSJ, String YSRQ, String SJLX) {
-        this.PTTYAH = PTTYAH;
-        this.SJBS = SJBS;
-        this.AJBH = AJBH;
-        this.AH = AH;
-        this.AJMC = AJMC;
-        this.YWLB = YWLB;
-        this.YWLBMC = YWLBMC;
-        this.LCJDBH = LCJDBH;
-        this.JSDWBH = JSDWBH;
-        this.JSDWMC = JSDWMC;
-        this.JSDWDWSZD = JSDWDWSZD;
-        this.JSDWSZDXZQHDM = JSDWSZDXZQHDM;
-        this.JSDWSZDXZQH = JSDWSZDXZQH;
-        this.JSDWLX = JSDWLX;
-        this.FSDWLX = FSDWLX;
-        this.FSDWBH = FSDWBH;
-        this.FSDWMC = FSDWMC;
-        this.FSDWSZD = FSDWSZD;
-        this.FSDWSZDXZQHDM = FSDWSZDXZQHDM;
-        this.FSDWSZDXZQH = FSDWSZDXZQH;
-        this.FSSJ = FSSJ;
-        this.YSRQ = YSRQ;
-        this.SJLX = SJLX;
-    }
 
     public XTXX(String PTTYAH, String SJBS, String AJBH) {
         this.PTTYAH = PTTYAH;
